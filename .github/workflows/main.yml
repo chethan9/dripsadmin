@@ -1,4 +1,4 @@
-name: Flutter Web Build and Deploy to FTP
+name: Flutter Web Build and Push to Branch
 
 on:
   push:
@@ -6,14 +6,14 @@ on:
       - main  # Trigger the workflow on push events to the main branch
 
 jobs:
-  build-and-deploy:
+  build-and-push:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2  # Checkout the repository content to the GitHub Actions runner
 
     - uses: subosito/flutter-action@v1  # Setup Flutter environment
       with:
-        flutter-version: '3.13.7' # Specify the Flutter version you want to use
+        flutter-version: '3.13.7'  # Specify the Flutter version you want to use
 
     - name: Install Flutter Dependencies  # Install dependencies specified in pubspec.yaml
       run: flutter pub get
@@ -24,12 +24,22 @@ jobs:
     - name: Build Flutter Web App  # Build the Flutter project for web
       run: flutter build web
 
-    - name: Deploy to FTP Server  # Deploy the build to the FTP server
-      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+    - name: Checkout target branch  # Checkout the target branch to push changes to
+      uses: actions/checkout@v2
       with:
-        server: 149.255.58.70
-        username: drips
-        password: "!8M9ose36"
-        local-dir: build/web/
-        # Since you are deploying to the root directory and using unencrypted FTP, no need to specify server-dir or encryption settings
+        ref: "target-branch"
+        token: ${{ secrets.GITHUB_TOKEN }}  # Use GITHUB_TOKEN to authenticate
+        fetch-depth: 0  # Fetch all history for all branches and tags
 
+    - name: Copy build/web to root  # Copy the build/web directory to the root of the working directory
+      run: |
+        rm -rf *  # Clear the current content (be careful with this command)
+        cp -r build/web/* .  # Copy the build/web contents to the root
+
+    - name: Commit and push changes  # Commit and push the changes to the target branch
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git add .
+        git commit -m "Deploy Flutter web build to target branch" || echo "No changes to commit"
+        git push origin HEAD:"target-branch"  # Push changes to the target branch
