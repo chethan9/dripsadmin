@@ -28,7 +28,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         ref: "target-branch"
-        token: ${{ secrets.GITHUB_TOKEN }}  # Use GITHUB_TOKEN to authenticate
+        token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0  # Fetch all history for all branches and tags
 
     - name: Copy build/web to root  # Copy the build/web directory to the root of the working directory
