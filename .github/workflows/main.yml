@@ -1,4 +1,4 @@
-name: Flutter Web Build and Push to Branch
+name: Flutter Web Build and Push to Live Branch
 
 on:
   push:
@@ -9,37 +9,33 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2  # Checkout the repository content to the GitHub Actions runner
+    - uses: actions/checkout@v2  # Checkout the repository content to the GitHub Actions runner with full history
+      with:
+        fetch-depth: 0
 
     - uses: subosito/flutter-action@v1  # Setup Flutter environment
       with:
-        flutter-version: '3.13.7'  # Specify the Flutter version you want to use
+        flutter-version: '3.13.7'
 
     - name: Install Flutter Dependencies  # Install dependencies specified in pubspec.yaml
       run: flutter pub get
 
-    - name: Enable Flutter Web  # Enable Flutter for web development
+    - name: Enable Flutter Web
       run: flutter config --enable-web
 
     - name: Build Flutter Web App  # Build the Flutter project for web
       run: flutter build web
 
-    - name: Checkout target branch  # Checkout the target branch to push changes to
-      uses: actions/checkout@v2
+    - name: Commit and Push Build to Live Branch
+      uses: EndBug/add-and-commit@v7
       with:
-        ref: "target-branch"
-        token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0  # Fetch all history for all branches and tags
-
-    - name: Copy build/web to root  # Copy the build/web directory to the root of the working directory
-      run: |
-        rm -rf *  # Clear the current content (be careful with this command)
-        cp -r build/web/* .  # Copy the build/web contents to the root
-
-    - name: Commit and push changes  # Commit and push the changes to the target branch
-      run: |
-        git config --global user.name 'GitHub Actions'
-        git config --global user.email 'actions@github.com'
-        git add .
-        git commit -m "Deploy Flutter web build to target branch" || echo "No changes to commit"
-        git push origin HEAD:"target-branch"  # Push changes to the target branch
+        author_name: GitHub Actions
+        author_email: actions@github.com
+        message: 'Deploy Flutter web build to live'
+        add: 'build/web/*'
+        cwd: 'build/web'
+        pull_strategy: 'NO-PULL' # Do not pull the branch before pushing
+        push: true
+        target_branch: 'live' # The branch to push the built web app to
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
