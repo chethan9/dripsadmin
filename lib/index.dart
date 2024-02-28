@@ -1,0 +1,214 @@
+// Export pages
+export '/old_version_d_r_i_p/users/sign_u_p/sign_u_p_widget.dart'
+    show SignUPWidget;
+export '/old_version_d_r_i_p/users/sign_i_n/sign_i_n_widget.dart'
+    show SignINWidget;
+export '/old_version_d_r_i_p/users/forgot_p_a_s_s_w_o_r_d/forgot_p_a_s_s_w_o_r_d_widget.dart'
+    show ForgotPASSWORDWidget;
+export '/old_version_d_r_i_p/online_classes/dashboard/home/home_widget.dart'
+    show HomeWidget;
+export '/old_version_d_r_i_p/drip/course_plan/course/course_widget.dart'
+    show CourseWidget;
+export '/old_version_d_r_i_p/online_classes/user/profile_page/profile_page_widget.dart'
+    show ProfilePageWidget;
+export '/old_version_d_r_i_p/course/chapter/chapters/chapters_widget.dart'
+    show ChaptersWidget;
+export '/old_version_d_r_i_p/online_classes/orders/order/order_widget.dart'
+    show OrderWidget;
+export '/old_version_d_r_i_p/online_classes/user/edit_profile/edit_profile_widget.dart'
+    show EditProfileWidget;
+export '/old_version_d_r_i_p/online_classes/user/search_page/search_page_widget.dart'
+    show SearchPageWidget;
+export '/old_version_d_r_i_p/users/phone/phone_widget.dart' show PhoneWidget;
+export '/old_version_d_r_i_p/users/phone_verification/phone_verification_widget.dart'
+    show PhoneVerificationWidget;
+export '/old_version_d_r_i_p/users/change_password/change_password_widget.dart'
+    show ChangePasswordWidget;
+export '/old_version_d_r_i_p/course/category/course_category/course_category_widget.dart'
+    show CourseCategoryWidget;
+export '/old_version_d_r_i_p/course/course/course_f_o_r_m/course_f_o_r_m_widget.dart'
+    show CourseFORMWidget;
+export '/old_version_d_r_i_p/course/category/course_category_f_o_r_m/course_category_f_o_r_m_widget.dart'
+    show CourseCategoryFORMWidget;
+export '/old_version_d_r_i_p/online_classes/dashboard/under_process/under_process_widget.dart'
+    show UnderProcessWidget;
+export '/old_version_d_r_i_p/course/chapter/chapter_f_o_r_m/chapter_f_o_r_m_widget.dart'
+    show ChapterFORMWidget;
+export '/old_version_d_r_i_p/course/lessons/lesson/lesson_widget.dart'
+    show LessonWidget;
+export '/old_version_d_r_i_p/course/lessons/lesson_f_o_r_m/lesson_f_o_r_m_widget.dart'
+    show LessonFORMWidget;
+export '/old_version_d_r_i_p/online_classes/meeting/booking/booking_widget.dart'
+    show BookingWidget;
+export '/old_version_d_r_i_p/online_classes/meeting/meeting/meeting_widget.dart'
+    show MeetingWidget;
+export '/old_version_d_r_i_p/online_classes/meeting/meeting_f_o_r_m/meeting_f_o_r_m_widget.dart'
+    show MeetingFORMWidget;
+export '/old_version_d_r_i_p/online_classes/user/settings/settings_widget.dart'
+    show SettingsWidget;
+export '/old_version_d_r_i_p/online_classes/user/bug_report/bug_report_widget.dart'
+    show BugReportWidget;
+export '/old_version_d_r_i_p/users/users/users_widget.dart' show UsersWidget;
+export '/old_version_d_r_i_p/online_classes/user/edit_user/edit_user_widget.dart'
+    show EditUserWidget;
+export '/old_version_d_r_i_p/online_classes/user/students/students_widget.dart'
+    show StudentsWidget;
+export '/old_version_d_r_i_p/course/announcement/announcement/announcement_widget.dart'
+    show AnnouncementWidget;
+export '/old_version_d_r_i_p/course/announcement/accouncement_f_o_r_m/accouncement_f_o_r_m_widget.dart'
+    show AccouncementFORMWidget;
+export '/old_version_d_r_i_p/online_classes/instructor/instructor_settings/instructor_settings_widget.dart'
+    show InstructorSettingsWidget;
+export '/old_version_d_r_i_p/course/reviews/review/review_widget.dart'
+    show ReviewWidget;
+export '/old_version_d_r_i_p/online_classes/instructor/instructor_request/instructor_request_widget.dart'
+    show InstructorRequestWidget;
+export '/old_version_d_r_i_p/course/zoom/zoom_classes/zoom_classes_widget.dart'
+    show ZoomClassesWidget;
+export '/old_version_d_r_i_p/course/zoom/zoomclasses_f_o_r_m/zoomclasses_f_o_r_m_widget.dart'
+    show ZoomclassesFORMWidget;
+export '/old_version_d_r_i_p/course/poll/poll/poll_widget.dart' show PollWidget;
+export '/old_version_d_r_i_p/course/poll/poll_answer/poll_answer_widget.dart'
+    show PollAnswerWidget;
+export '/old_version_d_r_i_p/course/poll/poll_f_o_r_m/poll_f_o_r_m_widget.dart'
+    show PollFORMWidget;
+export '/old_version_d_r_i_p/course/poll/poll_answer_f_o_r_m/poll_answer_f_o_r_m_widget.dart'
+    show PollAnswerFORMWidget;
+export '/old_version_d_r_i_p/course/reviews/all_review/all_review_widget.dart'
+    show AllReviewWidget;
+export '/old_version_d_r_i_p/online_classes/orders/singleorder/singleorder_widget.dart'
+    show SingleorderWidget;
+export '/old_version_d_r_i_p/online_classes/batches/batch/batch_widget.dart'
+    show BatchWidget;
+export '/old_version_d_r_i_p/online_classes/batches/batch_list/batch_list_widget.dart'
+    show BatchListWidget;
+export '/old_version_d_r_i_p/online_classes/batches/batch_f_o_r_m/batch_f_o_r_m_widget.dart'
+    show BatchFORMWidget;
+export '/old_version_d_r_i_p/online_classes/batches/main_batch_status_changes_process/main_batch_status_changes_process_widget.dart'
+    show MainBatchStatusChangesProcessWidget;
+export '/old_version_d_r_i_p/online_classes/batches/batch_chng_course_proces/batch_chng_course_proces_widget.dart'
+    show BatchChngCourseProcesWidget;
+export '/old_version_d_r_i_p/online_classes/batches/batch_course_list_proces/batch_course_list_proces_widget.dart'
+    show BatchCourseListProcesWidget;
+export '/old_version_d_r_i_p/coupon/coupon_f_o_r_m/coupon_f_o_r_m_widget.dart'
+    show CouponFORMWidget;
+export '/old_version_d_r_i_p/coupon/coupon/coupon_widget.dart'
+    show CouponWidget;
+export '/old_version_d_r_i_p/media_management/video_management/video_management_widget.dart'
+    show VideoManagementWidget;
+export '/old_version_d_r_i_p/media_management/video_f_o_r_m/video_f_o_r_m_widget.dart'
+    show VideoFORMWidget;
+export '/old_version_d_r_i_p/marketing/s_m_smarketing/bulk_s_m_s_marketing/bulk_s_m_s_marketing_widget.dart'
+    show BulkSMSMarketingWidget;
+export '/old_version_d_r_i_p/marketing/s_m_smarketing/bulk_s_m_s_marketing_f_o_r_m/bulk_s_m_s_marketing_f_o_r_m_widget.dart'
+    show BulkSMSMarketingFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_course/translation_course_widget.dart'
+    show TranslationCourseWidget;
+export '/old_version_d_r_i_p/course/translation/translation_course_f_o_r_m/translation_course_f_o_r_m_widget.dart'
+    show TranslationCourseFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_chapter_f_o_r_m/translation_chapter_f_o_r_m_widget.dart'
+    show TranslationChapterFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_lesson_f_o_r_m/translation_lesson_f_o_r_m_widget.dart'
+    show TranslationLessonFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_zoom_lesson_f_o_r_m/translation_zoom_lesson_f_o_r_m_widget.dart'
+    show TranslationZoomLessonFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_announcement_f_o_r_m/translation_announcement_f_o_r_m_widget.dart'
+    show TranslationAnnouncementFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_course_category_f_o_r_m/translation_course_category_f_o_r_m_widget.dart'
+    show TranslationCourseCategoryFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_category/translation_category_widget.dart'
+    show TranslationCategoryWidget;
+export '/old_version_d_r_i_p/course/translation/translation_meeting_f_o_r_m/translation_meeting_f_o_r_m_widget.dart'
+    show TranslationMeetingFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_poll_f_o_r_m/translation_poll_f_o_r_m_widget.dart'
+    show TranslationPollFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_poll_answer_f_o_r_m/translation_poll_answer_f_o_r_m_widget.dart'
+    show TranslationPollAnswerFORMWidget;
+export '/old_version_d_r_i_p/online_classes/batches/translation_batch_f_o_r_m/translation_batch_f_o_r_m_widget.dart'
+    show TranslationBatchFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_country_f_o_r_m/translation_country_f_o_r_m_widget.dart'
+    show TranslationCountryFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_university_f_o_r_m/translation_university_f_o_r_m_widget.dart'
+    show TranslationUniversityFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_branch_f_o_r_m/translation_branch_f_o_r_m_widget.dart'
+    show TranslationBranchFORMWidget;
+export '/old_version_d_r_i_p/online_classes/user/translation_setting_f_o_r_m/translation_setting_f_o_r_m_widget.dart'
+    show TranslationSettingFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_chapter/translation_chapter_widget.dart'
+    show TranslationChapterWidget;
+export '/old_version_d_r_i_p/course/translation/translation_meeting/translation_meeting_widget.dart'
+    show TranslationMeetingWidget;
+export '/old_version_d_r_i_p/course/translation/translation_country/translation_country_widget.dart'
+    show TranslationCountryWidget;
+export '/old_version_d_r_i_p/course/translation/translation_university/translation_university_widget.dart'
+    show TranslationUniversityWidget;
+export '/old_version_d_r_i_p/course/translation/translation_branch/translation_branch_widget.dart'
+    show TranslationBranchWidget;
+export '/old_version_d_r_i_p/online_classes/batches/translation_batch/translation_batch_widget.dart'
+    show TranslationBatchWidget;
+export '/old_version_d_r_i_p/course/translation/translation_poll/translation_poll_widget.dart'
+    show TranslationPollWidget;
+export '/old_version_d_r_i_p/course/translation/translation_lesson/translation_lesson_widget.dart'
+    show TranslationLessonWidget;
+export '/old_version_d_r_i_p/course/translation/translation_zoom_lesson/translation_zoom_lesson_widget.dart'
+    show TranslationZoomLessonWidget;
+export '/old_version_d_r_i_p/course/translation/translation_announcement/translation_announcement_widget.dart'
+    show TranslationAnnouncementWidget;
+export '/old_version_d_r_i_p/course/translation/translation_poll_answer/translation_poll_answer_widget.dart'
+    show TranslationPollAnswerWidget;
+export '/old_version_d_r_i_p/online_classes/category/category/category_widget.dart'
+    show CategoryWidget;
+export '/old_version_d_r_i_p/online_classes/category/category_f_o_r_m/category_f_o_r_m_widget.dart'
+    show CategoryFORMWidget;
+export '/old_version_d_r_i_p/course/translation/translation_main_category/translation_main_category_widget.dart'
+    show TranslationMainCategoryWidget;
+export '/old_version_d_r_i_p/course/translation/translation_main_category_f_o_r_m/translation_main_category_f_o_r_m_widget.dart'
+    show TranslationMainCategoryFORMWidget;
+export '/old_version_d_r_i_p/marketing/s_m_smarketing/bulk_s_m_s_form/bulk_s_m_s_form_widget.dart'
+    show BulkSMSFormWidget;
+export '/old_version_d_r_i_p/course/course/course_f_o_r_m_copy/course_f_o_r_m_copy_widget.dart'
+    show CourseFORMCopyWidget;
+export '/old_version_d_r_i_p/marketing/logs/email_log/email_log_widget.dart'
+    show EmailLogWidget;
+export '/old_version_d_r_i_p/marketing/logs/session_log/session_log_widget.dart'
+    show SessionLogWidget;
+export '/old_version_d_r_i_p/marketing/logs/activity_log/activity_log_widget.dart'
+    show ActivityLogWidget;
+export '/old_version_d_r_i_p/drip/quiz/halloween_users/halloween_users_widget.dart'
+    show HalloweenUsersWidget;
+export '/old_version_d_r_i_p/drip/quiz/form/form_widget.dart' show FormWidget;
+export '/old_version_d_r_i_p/drip/quiz/question/question_widget.dart'
+    show QuestionWidget;
+export '/old_version_d_r_i_p/drip/quiz/f_o_r_m_report/f_o_r_m_report_widget.dart'
+    show FORMReportWidget;
+export '/old_version_d_r_i_p/drip/course_plan/course_plan/course_plan_widget.dart'
+    show CoursePlanWidget;
+export '/old_version_d_r_i_p/drip/course_plan/course_plan_f_o_r_m/course_plan_f_o_r_m_widget.dart'
+    show CoursePlanFORMWidget;
+export '/old_version_d_r_i_p/drip/classes/classes/classes_widget.dart'
+    show ClassesWidget;
+export '/old_version_d_r_i_p/drip/classes/class_f_o_r_m/class_f_o_r_m_widget.dart'
+    show ClassFORMWidget;
+export '/old_version_d_r_i_p/drip/classes/class_booking/class_booking_widget.dart'
+    show ClassBookingWidget;
+export '/old_version_d_r_i_p/drip/classes/online_zoom_class_list/online_zoom_class_list_widget.dart'
+    show OnlineZoomClassListWidget;
+export '/old_version_d_r_i_p/drip/classes/upcoming_class/upcoming_class_widget.dart'
+    show UpcomingClassWidget;
+export '/new/session/session_list/session_list_widget.dart'
+    show SessionListWidget;
+export '/new/class/upcoming_class_list/upcoming_class_list_widget.dart'
+    show UpcomingClassListWidget;
+export '/new/class/add_class/add_class_widget.dart' show AddClassWidget;
+export '/new/class/class_booking_new/class_booking_new_widget.dart'
+    show ClassBookingNewWidget;
+export '/new/session/add_session/add_session_widget.dart' show AddSessionWidget;
+export '/new/class/class_list/class_list_widget.dart' show ClassListWidget;
+export '/new/class/class_info/class_info_widget.dart' show ClassInfoWidget;
+export '/new/session/edit_session/edit_session_widget.dart'
+    show EditSessionWidget;
+export '/new/class/edit_class/edit_class_widget.dart' show EditClassWidget;
+export '/new/report/sales_report/sales_report_widget.dart'
+    show SalesReportWidget;
+export '/new/report/revenue_report/revenue_report_widget.dart'
+    show RevenueReportWidget;

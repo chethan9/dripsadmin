@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1022667513638-1kuhmv0plapvcdmr3v342d14vm2g377d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1022667513638-1kuhmv0plapvcdmr3v342d14vm2g377d</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1022667513638-33uo5bfieivnj6nlc9vb8sad42fa3cha.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCRWPR0RwTl9iNZ0KvIOmbVg3-TpjU5eow</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1022667513638</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dripsfitness.admin</string>
+	<key>PROJECT_ID</key>
+	<string>drip-1b506</string>
+	<key>STORAGE_BUCKET</key>
+	<string>drip-1b506.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1022667513638:ios:7d03a00420dd19462dabe7</string>
+</dict>
+</plist>

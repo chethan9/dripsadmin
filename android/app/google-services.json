@@ -1,0 +1,518 @@
+{
+  "project_info": {
+    "project_number": "1022667513638",
+    "project_id": "drip-1b506",
+    "storage_bucket": "drip-1b506.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022667513638:android:7f03fd23525263db2dabe7",
+        "android_client_info": {
+          "package_name": "Drip.FITNESS"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022667513638-4qa7koj7num6h3si8kjekd5vv00n7s7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Drip.FITNESS",
+            "certificate_hash": "d62acc68760b76637ecb2024c346d857953e6a40"
+          }
+        },
+        {
+          "client_id": "1022667513638-ehtn41aoof8urbn3jra24kej6ivc96mf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Drip.FITNESS",
+            "certificate_hash": "0f642023a41f6e11e90c5f2b803d4cc4eac7be12"
+          }
+        },
+        {
+          "client_id": "1022667513638-go4dvq3vuqd5js343ubq8kvamjq3d12a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Drip.FITNESS",
+            "certificate_hash": "9667686672ecdf4332c535c90baf5b5053d9276b"
+          }
+        },
+        {
+          "client_id": "1022667513638-h6q6auk09h4goop4ebee755i0q3204o8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Drip.FITNESS",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1022667513638-maq2ogolgt9d64qclu8ohjs3onf1vh5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "Drip.FITNESS",
+            "certificate_hash": "3a8f94e37f1b50b398285ca17ea739dbe37c37a2"
+          }
+        },
+        {
+          "client_id": "1022667513638-qdae7gpnedgc0njj351j2g0k9atbq72t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbiSLcVmtX9pUAGAmmeyxAqNLKrFiiaMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022667513638-90na9objkn6fabhrs0k9fedcaimm8c5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1022667513638-1kuhmv0plapvcdmr3v342d14vm2g377d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dripsfitness.admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022667513638:android:bf5d691f1a3078532dabe7",
+        "android_client_info": {
+          "package_name": "com.dripholisticfitness.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022667513638-jtm10cg3b4q3i5virvv68u4gbboof9fh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dripholisticfitness.admin",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1022667513638-qdae7gpnedgc0njj351j2g0k9atbq72t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbiSLcVmtX9pUAGAmmeyxAqNLKrFiiaMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022667513638-90na9objkn6fabhrs0k9fedcaimm8c5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1022667513638-1kuhmv0plapvcdmr3v342d14vm2g377d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dripsfitness.admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022667513638:android:d2a65d5df4a1d7a22dabe7",
+        "android_client_info": {
+          "package_name": "com.dripholisticfitness.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022667513638-40chmlf5f3p0u12uvodr4a1olbbnunaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dripholisticfitness.app",
+            "certificate_hash": "9667686672ecdf4332c535c90baf5b5053d9276b"
+          }
+        },
+        {
+          "client_id": "1022667513638-df2ferlfrpeaqcis98tb01ihdj5lqofj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dripholisticfitness.app",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1022667513638-qdae7gpnedgc0njj351j2g0k9atbq72t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbiSLcVmtX9pUAGAmmeyxAqNLKrFiiaMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022667513638-90na9objkn6fabhrs0k9fedcaimm8c5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1022667513638-1kuhmv0plapvcdmr3v342d14vm2g377d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dripsfitness.admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022667513638:android:d3e74b6d2681fd312dabe7",
+        "android_client_info": {
+          "package_name": "com.dripsfitness.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022667513638-kge2a7vetff8b028jdpgddiih0gh9cc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dripsfitness.admin",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1022667513638-qdae7gpnedgc0njj351j2g0k9atbq72t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbiSLcVmtX9pUAGAmmeyxAqNLKrFiiaMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022667513638-90na9objkn6fabhrs0k9fedcaimm8c5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1022667513638-1kuhmv0plapvcdmr3v342d14vm2g377d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dripsfitness.admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022667513638:android:9dd51e3970e7bd4b2dabe7",
+        "android_client_info": {
+          "package_name": "com.dripsfitness.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022667513638-33uo5bfieivnj6nlc9vb8sad42fa3cha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dripsfitness.com",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1022667513638-ckmjk9dl3ph56vuou30o5h3rum5j4rls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dripsfitness.com",
+            "certificate_hash": "a4189ef55924117e46e014f418b38568bc10b2d6"
+          }
+        },
+        {
+          "client_id": "1022667513638-ll8jp72odh25h6l9o90cf7u16i2ps60c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dripsfitness.com",
+            "certificate_hash": "9667686672ecdf4332c535c90baf5b5053d9276b"
+          }
+        },
+        {
+          "client_id": "1022667513638-o9vcjmvftsusso2lft9bc6uea7se8fio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dripsfitness.com",
+            "certificate_hash": "3a8f94e37f1b50b398285ca17ea739dbe37c37a2"
+          }
+        },
+        {
+          "client_id": "1022667513638-rqj19nqlj1brpnlg8hfdegtu1n3114dk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dripsfitness.com",
+            "certificate_hash": "0034850d064d4778504f8c456a3a92fd7848cb60"
+          }
+        },
+        {
+          "client_id": "1022667513638-u6rtf43t6c3b9kpp115a6c8buibnsrsb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dripsfitness.com",
+            "certificate_hash": "5877ae27f9c3d22444685d78a85439a5a7508226"
+          }
+        },
+        {
+          "client_id": "1022667513638-qdae7gpnedgc0njj351j2g0k9atbq72t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbiSLcVmtX9pUAGAmmeyxAqNLKrFiiaMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022667513638-90na9objkn6fabhrs0k9fedcaimm8c5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1022667513638-1kuhmv0plapvcdmr3v342d14vm2g377d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dripsfitness.admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022667513638:android:bb8744b06de0016c2dabe7",
+        "android_client_info": {
+          "package_name": "com.dripsfitness.web"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022667513638-346f8bv9fr6e3ipcuu0ma31qn4v5hb00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dripsfitness.web",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1022667513638-qdae7gpnedgc0njj351j2g0k9atbq72t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbiSLcVmtX9pUAGAmmeyxAqNLKrFiiaMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022667513638-90na9objkn6fabhrs0k9fedcaimm8c5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1022667513638-1kuhmv0plapvcdmr3v342d14vm2g377d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dripsfitness.admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022667513638:android:bab2184263e0568b2dabe7",
+        "android_client_info": {
+          "package_name": "com.mycompany.dripapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022667513638-61jpudk3rs1jccgf3jhk1um4hnvsp2c7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.dripapp",
+            "certificate_hash": "3a8f94e37f1b50b398285ca17ea739dbe37c37a2"
+          }
+        },
+        {
+          "client_id": "1022667513638-brckldiddvb1kvt946krsank8hi7lrg0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.dripapp",
+            "certificate_hash": "0f642023a41f6e11e90c5f2b803d4cc4eac7be12"
+          }
+        },
+        {
+          "client_id": "1022667513638-f2rt2l7hst6fagccp4du2tb2a102a17o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.dripapp",
+            "certificate_hash": "d62acc68760b76637ecb2024c346d857953e6a40"
+          }
+        },
+        {
+          "client_id": "1022667513638-qmn3uvuvtnq1g3185o041jnj3bamce0g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.dripapp",
+            "certificate_hash": "9667686672ecdf4332c535c90baf5b5053d9276b"
+          }
+        },
+        {
+          "client_id": "1022667513638-u32816oi0s98766ng1efcj5hs6c9r4t5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.dripapp",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1022667513638-qdae7gpnedgc0njj351j2g0k9atbq72t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbiSLcVmtX9pUAGAmmeyxAqNLKrFiiaMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022667513638-90na9objkn6fabhrs0k9fedcaimm8c5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1022667513638-1kuhmv0plapvcdmr3v342d14vm2g377d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dripsfitness.admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022667513638:android:a981d3297240c01d2dabe7",
+        "android_client_info": {
+          "package_name": "com.mycompany.dripsb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022667513638-cr9ch4sausimvmrnl4478ua3820s2r1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.dripsb",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1022667513638-qdae7gpnedgc0njj351j2g0k9atbq72t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbiSLcVmtX9pUAGAmmeyxAqNLKrFiiaMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022667513638-90na9objkn6fabhrs0k9fedcaimm8c5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1022667513638-1kuhmv0plapvcdmr3v342d14vm2g377d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dripsfitness.admin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022667513638:android:a5e44f984d3575ec2dabe7",
+        "android_client_info": {
+          "package_name": "web.dripsfitness.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022667513638-onq9sr3hb6ok4dfjbhm2cs6tfs25us48.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "web.dripsfitness.com",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1022667513638-qdae7gpnedgc0njj351j2g0k9atbq72t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbiSLcVmtX9pUAGAmmeyxAqNLKrFiiaMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022667513638-90na9objkn6fabhrs0k9fedcaimm8c5o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1022667513638-1kuhmv0plapvcdmr3v342d14vm2g377d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dripsfitness.admin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
