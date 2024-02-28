@@ -24,6 +24,6 @@ jobs:
       with:
         ftp-server: 149.255.58.70
         ftp-username: drips
-        ftp-password: !8M9ose36
+        ftp-password: "!8M9ose36"
         local-dir: build/web/
         
