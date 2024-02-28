@@ -1,0 +1,29 @@
+name: Flutter Web Build and Deploy to FTP
+
+on:
+  push:
+    branches:
+      - main  # or the name of the branch you want to deploy from
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: subosito/flutter-action@v1
+      with:
+        flutter-version: '3.13.7' # specify the Flutter version you want to use
+    - name: Install Flutter Dependencies
+      run: flutter pub get
+    - name: Enable Flutter Web
+      run: flutter config --enable-web
+    - name: Build Flutter Web App
+      run: flutter build web
+    - name: Deploy to FTP Server
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        ftp-server: 149.255.58.70
+        ftp-username: drips
+        ftp-password: !8M9ose36
+        local-dir: build/web/
+        
