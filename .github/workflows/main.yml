@@ -9,33 +9,46 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2  # Checkout the repository content to the GitHub Actions runner with full history
+    - uses: actions/checkout@v2
       with:
         fetch-depth: 0
 
-    - uses: subosito/flutter-action@v1  # Setup Flutter environment
+    - uses: subosito/flutter-action@v1
       with:
         flutter-version: '3.13.7'
 
-    - name: Install Flutter Dependencies  # Install dependencies specified in pubspec.yaml
+    - name: Install Flutter Dependencies
       run: flutter pub get
 
     - name: Enable Flutter Web
       run: flutter config --enable-web
 
-    - name: Build Flutter Web App  # Build the Flutter project for web
+    - name: Build Flutter Web App
       run: flutter build web
 
-    - name: Commit and Push Build to Live Branch
+    - name: Prepare Built Content
+      run: |
+        mkdir tmp-web-build
+        cp -r build/web/* tmp-web-build/
+
+    - uses: actions/checkout@v2
+      with:
+        ref: live
+
+    - name: Replace Live Branch Contents
+      run: |
+        rm -rf *  # Caution: This deletes all files in the current directory (which is now your live branch after the second checkout)
+        cp -r ../tmp-web-build/* .
+        rm -rf ../tmp-web-build  # Clean up temporary directory
+
+    - name: Commit and Push to Live Branch
       uses: EndBug/add-and-commit@v7
       with:
         author_name: GitHub Actions
         author_email: actions@github.com
         message: 'Deploy Flutter web build to live'
-        add: 'build/web/*'
-        cwd: 'build/web'
-        pull_strategy: 'NO-PULL' # Do not pull the branch before pushing
+        add: '.'
         push: true
-        target_branch: 'live' # The branch to push the built web app to
+        target_branch: 'live' # Ensure this is the branch you want to push to
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
